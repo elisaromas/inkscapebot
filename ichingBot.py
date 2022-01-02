@@ -37,7 +37,7 @@ while keyboard.is_pressed('c')==False:  # Aperte a Tecla 'c' para parar a execu�
         #Selecionar pagina
     pyautogui.moveTo (x=640, y=173) # mouse é movido para a coordenada correspondente
     pyautogui.doubleClick (x=640, y=173) # click do mouse em Selecionar a pagina
-    pyautogui.write ('005') # escrevendo o número da página do ebook. (a cada loop do script é ecrito o número da pagina correspondente do PDF, sendo que o pdf tem 545 paginas)
+    pyautogui.write ('005') # escrevendo o número da página do ebook. (a cada loop do script é escrito o número da pagina correspondente do PDF, sendo que o pdf tem 545 paginas)
     time.sleep (10) # espere 10 segundos
         #Clicar em OK
     pyautogui.moveTo (x=1021, y=591) # mouse é movido para a coordenada correspondente
@@ -67,7 +67,7 @@ while keyboard.is_pressed('c')==False:  # Aperte a Tecla 'c' para parar a execu�
     pyautogui.moveTo (x=291, y=583) # mouse é movido para a coordenada correspondente
     pyautogui.click (x=291, y=583) # click do mouse no campo para digitar o nome do arquivo
     time.sleep (3) # espere 3 segundos
-    pyautogui.write ('005') # escrevendo nome do arquivo (cada nome deverá ter como nome o número da pagina correspondente do PDF, sendo que o pdf tem 545 paginas)
+    pyautogui.write ('005') # escrevendo nome do arquivo (Repete o processo da linha "40", onde cada nome deverá ter como nome o número da pagina correspondente do PDF, sendo que o pdf tem 545 paginas)
     time.sleep (3) # espere 3 segundos
         #Salvar
     pyautogui.moveTo (x=1240, y=586) # mouse é movido para a coordenada correspondente
